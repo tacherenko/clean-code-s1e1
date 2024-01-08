@@ -50,8 +50,8 @@ button {
   margin: 0 auto 0;
 }
 
-.main__title-hidden,
-.section__title-hidden {
+.main__title--hidden,
+.section__title--hidden {
   visibility: hidden;
   padding: 0;
   margin: 0;
@@ -59,7 +59,7 @@ button {
 }
 
 .task-input,
-.sectin__label {
+.section__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -114,12 +114,12 @@ button {
 
 /* New Task */
 
-.section__label-newtask {
+.section__label--newtask {
   display: block;
   margin: 0 0 20px;
 }
 
-.section__add .task {
+.main__add .task {
   display: flex;
   width: 318px;
 }
@@ -147,7 +147,7 @@ button {
   width: 226px;
 }
 
-.sectin__input {
+.section__input {
   width: 226px;
 }
 
@@ -163,18 +163,18 @@ button {
 
 /* Completed */
 
-.section__list-completed .section__label {
+.section__list--completed .section__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.sectin__input {
+.section__input {
   display: none;
 }
 
-.list__item-editmode .sectin__input {
+.list__item-editmode .section__input {
   display: inline-block;
   width: 224px;
 }
